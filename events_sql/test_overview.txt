@@ -1,0 +1,59 @@
+There are really many functional test cases.
+
+Here is a graphical/text representation of the cases (assumes on same resource or there is no issue conflict)
+
+1) Candidate (X) overlaps start of Event (A)
+
+     XXXXXX
+        AAAAAAAAAAA
+
+
+2) Candidate (X) overlaps end of Event (A)
+
+                XXXXXX
+        AAAAAAAAAAA
+
+
+3) Candidate (X) encompasses Event (A)
+
+      XXXXXXXXXXXXXXX
+        AAAAAAAAAAA
+
+
+4) Candidate (X) encompassed by Event (A)
+
+          XXXXXXX
+        AAAAAAAAAAA
+
+
+5) Candidate (X) before Event (A)
+
+XXXXXX
+      AAAAAAAAAAA
+
+
+2) Candidate (X) after Event (A)
+
+                   XXXXXX
+        AAAAAAAAAAA
+
+
+7) End of Candidate (X) equal to start of Event (A)
+
+XXXXXXX
+      AAAAAAAAAAA
+
+
+8) Start of Candidate (X) equal to end of Event (A)
+
+                  XXXXXX
+        AAAAAAAAAAA
+
+
+9) Candidate (X) exactly matches Event (A)
+
+        XXXXXXXXXXX
+        AAAAAAAAAAA
+
+
+
