@@ -32,7 +32,7 @@ XXXXXX
       AAAAAAAAAAA
 
 
-2) Candidate (X) after Event (A)
+6) Candidate (X) after Event (A)
 
                    XXXXXX
         AAAAAAAAAAA
