@@ -29,12 +29,12 @@ Here is a graphical/text representation of the cases (assumes on same resource o
 5) Candidate (X) before Event (A)
 
 XXXXXX
-      AAAAAAAAAAA
+         AAAAAAAAAAA
 
 
 6) Candidate (X) after Event (A)
 
-                   XXXXXX
+                      XXXXXX
         AAAAAAAAAAA
 
 
