@@ -32,7 +32,7 @@ CALL p_get_event_conflicts_v3(1, '2022-12-01 15:30', '2022-12-01 17:30');
 
 
 -- 5) Candidate (X) before Event (A)
-CALL p_get_event_conflicts_v3(1, '2022-12-01 13:30', '2022-12-01 14:30');
+CALL p_get_event_conflicts_v3(1, '2022-12-01 14:15', '2022-12-01 14:45');
 
 
 -- 6) Candidate (X) after Event (A)

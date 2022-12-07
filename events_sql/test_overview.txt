@@ -16,44 +16,44 @@ Here is a graphical/text representation of the cases (assumes on same resource o
 
 3) Candidate (X) encompasses Event (A)
 
-      XXXXXXXXXXXXXXX
-        AAAAAAAAAAA
+      X1XXXXXXXXXXXXXX2
+        A1AAAAAAAAAA2
 
 
 4) Candidate (X) encompassed by Event (A)
 
-          XXXXXXX
-        AAAAAAAAAAA
+          X1XXXXXX2
+        A1AAAAAAAAAAA2
 
 
 5) Candidate (X) before Event (A)
 
-XXXXXX
-         AAAAAAAAAAA
+XXXXXX2
+         A1AAAAAAAAAA
 
 
 6) Candidate (X) after Event (A)
 
-                      XXXXXX
-        AAAAAAAAAAA
+                      X1XXXXX
+        AAAAAAAAAAA2
 
 
 7) End of Candidate (X) equal to start of Event (A)
 
-XXXXXXX
-      AAAAAAAAAAA
+XXXXXXX2
+      A1AAAAAAAAAA
 
 
 8) Start of Candidate (X) equal to end of Event (A)
 
-                  XXXXXX
-        AAAAAAAAAAA
+                  X1XXXXX
+        AAAAAAAAAAA2
 
 
 9) Candidate (X) exactly matches Event (A)
 
-        XXXXXXXXXXX
-        AAAAAAAAAAA
+        X1XXXXXXXXXX2
+        A1AAAAAAAAAA2
 
 
 
